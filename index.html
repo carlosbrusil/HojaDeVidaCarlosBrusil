@@ -9,10 +9,10 @@
   <body>
     <!--<svg style="border:2px solid green;" width="100" height="100"> -->
     <header>
-      <svg  width="150" height="75">
+      <svg id="inicio" width="150" height="75">
           <image width="150px" height="75px" xlink:href="imagenes/logo3CB.svg"></image>
       </svg>
-      <h1>  Curriculum Vitae</h1>
+      <h1 >  Curriculum Vitae</h1>
       <h2> DATOS PERSONALES</h2>
       <h3>Carlos Brusil Calle</h3>
     <!--<br>-->
@@ -20,10 +20,17 @@
       <h3>4 de agosto de 1958</h3>
     </header>
     <nav>
-      <p>
-        <a href="html/educacion.html" >EDUCACION</a>!
+      <table border="1" cellpadding="15" cellspacing="3">
+          <tr>
+              <td><a href="#inicio">   INICIO   </a></td>
+              <td><a href="html/educacion.html" > EDUCACION </a></td>
+              <td><a href="html/experiencia.html" >EXPERIENCIA</a></td>
+          </tr>
+      </table>
+      <!--<p>
+        <a href="html/educacion.html" >EDUCACION</a>
         <a href="html/experiencia.html" >EXPERIENCIA</a>
-      </p>
+      </p>-->
     </nav>
     <section>
       <h2>INFORMACION PERSONAL</h2>
@@ -34,19 +41,45 @@
 
 
     <article class="">
-      <h2>PERFIL</h2>
-      <p>
-          Con experiencia de 20 años durante el trabajo en mi negocio propio en: Mantenimiento de computadoras,
+      <h2>Perfil</h2>
+      <p>Con experiencia de 20 años durante el trabajo en mi negocio propio TECNOSIG21; en:</p>
+        <ol>
+          <li>Mantenimiento de computadoras, portatiles, notebooks, impresoras.</li>
+          <li>Analisis desarrollo e implementacion de aplicaciones en C++, Java, Visual Net.</li>
+          <li>Soy distribuidor de partes y piezas para equipos de computo.</li>
+          <li>Configuracion de redes locales cableadas e inalambricas.</li>
+        </ol>
+      <h3>Idiomas</h3>
+      <ul>
+        <li>Español</li>
+        <li>Ingles - escrito</li>
+      </ul>
+          <!--Con experiencia de 20 años durante el trabajo en mi negocio propio en: Mantenimiento de computadoras,
           portatiles, notebooks, impresoras.
           Analisis desarrollo e implementacion de aplicaciones en C++, Java, Visual Net.
           Soy distribuidor de partes y piezas para equipos de computo.
-          Configuracion de redes locales cableadas e inalambricas.
-      </p>
+          Configuracion de redes locales cableadas e inalambricas.-->
     </article>
   </section>
 
     <footer>
-      <p>Contacto:   Email carlosbrusil@hotmail.com       Teléfono (593) 0968438440</p>
+      <p><h4>Contacto:</h4></p>
+      <table border="1" cellpadding="1" cellspacing="0">
+        <tr>
+          <th>Contacto:</th>
+        </tr>
+          <tr>
+              <td>Email carlosbrusil@hotmail.com</td>
+              <td></td>
+              <td>Teléfono (593) 0968438440</td>
+              <td></td>
+              <td>Direccion: Bolivar 311 y Colombia</td>
+              <td></td>
+              <td>Ciudad: Sangolqui</td>
+              <td></td>
+              <td>Pais:    Ecuador</td>
+          </tr>
+      </table>
     </footer>
   </body>
 </html>
